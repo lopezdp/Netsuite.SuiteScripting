@@ -16,4 +16,4 @@ Monitor.userMonitoring = (function ()
 
 	UIoutput.beforeLoad = beforeLoad;
 	return UIoutput;
-})
+}) ();
