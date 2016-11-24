@@ -91,7 +91,7 @@ TestLopez.addSeeds = (function(){
 			//GS_GPRO_SDB InternalID == 8528
 			if(line === "8528"){
 
-				//initialize globa var with qty
+				//initialize global var with qty
 				GS_GPRO_SDB_Qty = salesOrder.getLineItemValue("item", "quantity", i);
 				//nlapiLogExecution("DEBUG", "Item Quantity Recorded?: ", "Qty = " + GS_GPRO_SDB_Qty);
 
