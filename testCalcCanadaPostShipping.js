@@ -87,7 +87,7 @@ TestLopez.getCanadaRates = (function(){
 		* Canada Post API credentials:
 		* Base64 encoding needed
 		**/
-		var apiKey = nlapiEncrypt("c8deb9c75c85a520:6f355dd80ab90f28ce2bdb", "base64");
+		var apiKey = nlapiEncrypt("***************:******************", "base64");
 		nlapiLogExecution("AUDIT", "EncodedApiKey: ", apiKey);
 
 		// assign value to shipToCountry;
